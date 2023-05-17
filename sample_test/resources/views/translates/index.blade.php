@@ -1,0 +1,2 @@
+{{$translatedText}}
+あ
