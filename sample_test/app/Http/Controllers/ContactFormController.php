@@ -43,8 +43,7 @@ class ContactFormController extends Controller
     {
         $sourceText = $request->contact;
 
-        // APIキーとエンドポイントを設定
-        $apiKey = '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';
+        // APIキーとエンドポイントを設
         $url = 'https://api.openai.com/v1/chat/completions';
 
         // Guzzleを使ってAPIにリクエストを送信
